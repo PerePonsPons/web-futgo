@@ -1,7 +1,11 @@
+import { Container } from "@/components/ui/container";
+
 export function Footer() {
   return (
     <footer>
-      <div>© Web Futgo</div>
+      <Container>
+        <div>© Web Futgo</div>
+      </Container>
     </footer>
   );
 }
