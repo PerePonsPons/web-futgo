@@ -9,7 +9,7 @@ export function ServicesSection() {
       <Container>
         <h2>Els nostres serveis</h2>
 
-        <ul className="space-y-6 list-none p-0">
+        <ul className="grid list-none gap-6 p-0 md:grid-cols-2">
           {services.map((service) => (
             <li key={service.id}>
               <Card>
