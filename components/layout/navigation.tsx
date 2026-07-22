@@ -11,7 +11,7 @@ const navigationItems: NavigationItem[] = [
 export function Navigation() {
   return (
     <nav aria-label="Navegació principal">
-      <ul>
+      <ul className="flex items-center gap-6">
         {navigationItems.map((item) => (
           <li key={item.href}>
             <Link href={item.href}>{item.label}</Link>

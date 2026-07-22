@@ -5,17 +5,19 @@ import { Navigation } from "./navigation";
 
 export function Header() {
   return (
-    <header>
+    <header className="border-b">
       <Container>
-        <Image
-          src="/logos/logo.svg"
-          alt="Web Futgo"
-          width={180}
-          height={48}
-          priority
-        />
+        <div className="flex h-16 items-center justify-between">
+          <Image
+            src="/logos/logo.svg"
+            alt="Web Futgo"
+            width={180}
+            height={48}
+            priority
+          />
 
-        <Navigation />
+          <Navigation />
+        </div>
       </Container>
     </header>
   );
