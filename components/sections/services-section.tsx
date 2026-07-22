@@ -1,6 +1,7 @@
 import { services } from "@/content";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
+import { Card } from "@/components/ui/card";
 
 export function ServicesSection() {
   return (
@@ -8,12 +9,14 @@ export function ServicesSection() {
       <Container>
         <h2>Els nostres serveis</h2>
 
-        <ul>
+        <ul className="space-y-6 list-none p-0">
           {services.map((service) => (
             <li key={service.id}>
-              <h3>{service.title}</h3>
+              <Card>
+                <h3>{service.title}</h3>
 
-              <p>{service.description}</p>
+                <p>{service.description}</p>
+              </Card>
             </li>
           ))}
         </ul>
