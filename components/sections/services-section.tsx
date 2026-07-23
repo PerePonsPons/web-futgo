@@ -7,7 +7,9 @@ export function ServicesSection() {
   return (
     <Section>
       <Container>
-        <h2>Els nostres serveis</h2>
+        <h2 className="text-3xl font-bold tracking-tight">
+          Els nostres serveis
+        </h2>
 
         <ul className="grid list-none gap-6 p-0 md:grid-cols-2">
           {services.map((service) => (
@@ -15,7 +17,7 @@ export function ServicesSection() {
               <Card>
                 <h3>{service.title}</h3>
 
-                <p>{service.description}</p>
+                <p className="text-gray-600">{service.description}</p>
               </Card>
             </li>
           ))}
