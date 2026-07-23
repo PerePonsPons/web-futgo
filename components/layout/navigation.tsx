@@ -27,7 +27,12 @@ export function Navigation() {
       <ul className="flex items-center gap-6">
         {navigationItems.map((item) => (
           <li key={item.href}>
-            <Link href={item.href}>{item.label}</Link>
+            <Link
+              href={item.href}
+              className="text-sm font-medium transition-colors hover:text-gray-600"
+            >
+              {item.label}
+            </Link>
           </li>
         ))}
       </ul>
