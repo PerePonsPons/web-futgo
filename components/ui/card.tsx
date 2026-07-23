@@ -1,9 +1,16 @@
-import type { ReactNode } from "react";
+import type { HTMLAttributes, ReactNode } from "react";
 
-interface CardProps {
+interface CardProps extends HTMLAttributes<HTMLElement> {
   children: ReactNode;
 }
 
-export function Card({ children }: CardProps) {
-  return <article className="rounded-lg border p-6">{children}</article>;
+export function Card({ children, className = "", ...props }: CardProps) {
+  return (
+    <article
+      className={`rounded-lg border border-gray-200 bg-white p-6 ${className}`}
+      {...props}
+    >
+      {children}
+    </article>
+  );
 }
