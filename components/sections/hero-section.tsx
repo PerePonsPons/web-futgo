@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
   return (
-    <Section>
+    <Section id="home">
       <Container>
         <div className="max-w-3xl space-y-8 py-16 md:py-24">
           <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
@@ -15,6 +15,7 @@ export function HeroSection() {
             Web corporativa per a campus, tecnificacions, clínics i tornejos de
             futbol base.
           </p>
+
           <Button className="px-6 py-3" type="button">
             Més informació
           </Button>
