@@ -6,7 +6,7 @@ export function ContactSection() {
   return (
     <Section>
       <Container>
-        <h2>Contacte</h2>
+        <h2 className="text-3xl font-bold tracking-tight">Contacte</h2>
 
         <ul>
           <li>

@@ -6,9 +6,9 @@ export function AboutSection() {
   return (
     <Section>
       <Container>
-        <h2>{about.title}</h2>
+        <h2 className="text-3xl font-bold tracking-tight">{about.title}</h2>
 
-        <p>{about.description}</p>
+        <p className="text-gray-600">{about.description}</p>
       </Container>
     </Section>
   );
