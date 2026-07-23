@@ -4,7 +4,19 @@ import type { NavigationItem } from "@/types";
 const navigationItems: NavigationItem[] = [
   {
     label: "Inici",
-    href: "/",
+    href: "#home",
+  },
+  {
+    label: "Sobre nosaltres",
+    href: "#about",
+  },
+  {
+    label: "Serveis",
+    href: "#services",
+  },
+  {
+    label: "Contacte",
+    href: "#contact",
   },
 ];
 
