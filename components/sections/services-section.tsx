@@ -15,9 +15,9 @@ export function ServicesSection() {
           {services.map((service) => (
             <li key={service.id}>
               <Card>
-                <h3>{service.title}</h3>
+                <h3 className="text-xl font-semibold">{service.title}</h3>
 
-                <p className="text-gray-600">{service.description}</p>
+                <p className="mt-2 text-gray-600">{service.description}</p>
               </Card>
             </li>
           ))}

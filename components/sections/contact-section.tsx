@@ -6,21 +6,23 @@ export function ContactSection() {
   return (
     <Section>
       <Container>
-        <h2 className="text-3xl font-bold tracking-tight">Contacte</h2>
+        <div className="max-w-3xl space-y-6">
+          <h2 className="text-3xl font-bold tracking-tight">Contacte</h2>
 
-        <ul>
-          <li>
-            <strong>Correu:</strong> {contact.email}
-          </li>
+          <ul>
+            <li>
+              <strong>Correu:</strong> {contact.email}
+            </li>
 
-          <li>
-            <strong>Telèfon:</strong> {contact.phone}
-          </li>
+            <li>
+              <strong>Telèfon:</strong> {contact.phone}
+            </li>
 
-          <li>
-            <strong>Ubicació:</strong> {contact.address}
-          </li>
-        </ul>
+            <li>
+              <strong>Ubicació:</strong> {contact.address}
+            </li>
+          </ul>
+        </div>
       </Container>
     </Section>
   );
