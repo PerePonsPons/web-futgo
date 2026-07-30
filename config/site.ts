@@ -1,10 +1,18 @@
-export const siteConfig = {
-  name: "Web Futgo",
+﻿export const siteConfig = {
+  name: "FutGo Talent",
 
   description:
-    "Web corporativa especialitzada en campus, tecnificacions, clínics i experiències de futbol base a Menorca.",
+    "Tecnificacion, preparacion fisica, clinics de futbol y experiencias en torneos para jugadores y jugadoras en Menorca.",
 
   url: "https://webfutgo.local",
 
-  locale: "es-ES",
+  locale: "es_ES",
+
+  contact: {
+    email: "futgotalent@gmail.com",
+    phone: "+34 636 152 876",
+    phoneHref: "tel:+34636152876",
+    instagram: "https://www.instagram.com/futgotalent",
+    instagramLabel: "@futgotalent",
+  },
 } as const;
