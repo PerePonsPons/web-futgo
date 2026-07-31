@@ -132,7 +132,9 @@ function CarouselContent({
         data-slot="carousel-content"
         className={cn(
           "flex",
-          orientation === "horizontal" ? "-ml-4" : "-mt-4 flex-col",
+          orientation === "horizontal"
+            ? "-ml-4 [touch-action:pan-y_pinch-zoom]"
+            : "-mt-4 flex-col [touch-action:pan-x_pinch-zoom]",
           className,
         )}
         {...props}
