@@ -35,10 +35,10 @@ export function ServicesCarousel({
 				{services.map((service) => (
 					<CarouselItem
 						key={service.id}
-						className=" md:basis-1/2 lg:basis-1/3"
+						className="md:basis-1/2 lg:basis-1/3"
 					>
 						<Card className="h-full py-0 border-none rounded-2xl shadow-none">
-							<div className="relative aspect-[16/10] bg-muted">
+							<div className="relative aspect-16/10 bg-muted">
 								<Image
 									src={service.image}
 									alt={service.title}
