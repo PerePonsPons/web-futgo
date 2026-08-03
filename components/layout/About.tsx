@@ -3,7 +3,7 @@ import { homeContent } from "@/config/site";
 
 export function About() {
 	return (
-	<section className="pt-10 grid place-items-center">
+	<section className="pt-10 grid place-items-center mb-8">
 					<div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
 						<div className="grid items-center gap-10 lg:grid-cols-[1fr_1fr]">
 							<div className="max-w-3xl space-y-6">
