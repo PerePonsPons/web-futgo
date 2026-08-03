@@ -1,5 +1,6 @@
-﻿import "./globals.css";
+﻿import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -17,7 +18,11 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="es" className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}>
+		<html
+			lang="es"
+			className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
+		>
+			<SpeedInsights />
 			<body>{children}</body>
 		</html>
 	);
