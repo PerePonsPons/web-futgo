@@ -1,5 +1,6 @@
 ﻿import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -22,8 +23,12 @@ export default function RootLayout({
 			lang="es"
 			className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
 		>
-			<SpeedInsights />
-			<body>{children}</body>
+			<body>
+				{children}
+				<Suspense fallback={null}>
+					<SpeedInsights />
+				</Suspense>
+			</body>
 		</html>
 	);
 }

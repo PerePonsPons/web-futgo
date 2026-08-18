@@ -10,10 +10,10 @@ import { Hero } from "@/components/layout/Hero";
 import { services, siteConfig, structuredData } from "@/config/site";
 
 export const metadata: Metadata = {
-	title: "FutGo Talent | Tecnificacion, clinics y torneos de futbol en Menorca",
+	title: "Futgo Talent | Tecnificacion, clinics y torneos de futbol en Menorca",
 	description: siteConfig.description,
 	keywords: [
-		"FutGo Talent",
+		"Futgo Talent",
 		"futbol Menorca",
 		"tecnificacion futbol Menorca",
 		"clinic futbol Menorca",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		canonical: "/",
 	},
 	openGraph: {
-		title: "FutGo Talent | Futbol, formacion y experiencias en Menorca",
+		title: "Futgo Talent | Futbol, formacion y experiencias en Menorca",
 		description:
 			"Tecnificacion, clinics, torneos y preparacion fisica para futbolistas en Menorca. Diversion, evolucion y trato cercano.",
 		url: "/",
@@ -40,19 +40,17 @@ export const metadata: Metadata = {
 				url: services[0].image,
 				width: 1200,
 				height: 630,
-				alt: "FutGo Talent - futbol y tecnificacion en Menorca",
+				alt: "Futgo Talent - futbol y tecnificacion en Menorca",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "FutGo Talent | Futbol, formacion y experiencias en Menorca",
+		title: "Futgo Talent | Futbol, formacion y experiencias en Menorca",
 		description: siteConfig.description,
 		images: [services[0].image],
 	},
 };
-
-
 
 export default function HomePage() {
 	return (

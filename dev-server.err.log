@@ -1,0 +1,2 @@
+$ next dev "--port" "3000"
+[browser] Image with src "/logos/futgo.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (file://C:/Users/Usuari UIB/web-futgo/.next/dev/static/chunks/13ro_next_dist_0qfvikw._.js:2983:13)

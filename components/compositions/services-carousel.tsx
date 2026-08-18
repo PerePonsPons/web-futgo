@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -26,17 +26,14 @@ export function ServicesCarousel({
 }) {
 	return (
 		<Carousel
-			opts={{watchDrag: true, align: "start", loop: true }}
+			opts={{ watchDrag: true, align: "start", loop: true }}
 			className="mx-10"
 			plugins={[Autoplay({ delay: 4500, stopOnInteraction: true })]}
 			orientation="horizontal"
 		>
 			<CarouselContent className="-ml-4">
 				{services.map((service) => (
-					<CarouselItem
-						key={service.id}
-						className="md:basis-1/2 lg:basis-1/3"
-					>
+					<CarouselItem key={service.id} className="md:basis-1/2 lg:basis-1/3">
 						<Card className="h-full py-0 border-none rounded-2xl shadow-none">
 							<div className="relative aspect-16/10 bg-muted">
 								<Image
@@ -60,7 +57,7 @@ export function ServicesCarousel({
 				))}
 			</CarouselContent>
 			<CarouselPrevious aria-label="Servicio anterior" className="hidden" />
-			<CarouselNext aria-label="Siguiente servicio" className="hidden"/>
+			<CarouselNext aria-label="Siguiente servicio" className="hidden" />
 		</Carousel>
 	);
 }

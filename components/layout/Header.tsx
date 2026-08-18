@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const navigationItems = [
 	{ label: "Inicio", href: "#home" },
-	{ label: "Sobre FutGo", href: "#about" },
+	{ label: "Sobre Futgo Talent", href: "#about" },
 	{ label: "Actividades", href: "#services" },
 	{ label: "Galeria", href: "#gallery" },
 	{ label: "Contacto", href: "#contact" },
@@ -13,10 +13,14 @@ export function Header() {
 	return (
 		<header className="sticky top-0 h-[12svh] z-50 border-b bg-white">
 			<div className="w-full h-full flex justify-around items-center">
-				<Link href="#home" className="relative w-40 h-full" aria-label="Ir al inicio de FutGo Talent">
+				<Link
+					href="#home"
+					className="relative w-40 h-full"
+					aria-label="Ir al inicio de Futgo Talent"
+				>
 					<Image
 						src="/logos/futgo.jpeg"
-						alt="FutGo Talent"
+						alt="Futgo Talent"
 						className="object-cover"
 						fill
 						loading="eager"

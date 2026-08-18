@@ -1,4 +1,4 @@
-# Web Futgo
+# Web Futgo Talent
 
 Web corporativa estàtica desenvolupada amb Next.js.
 
