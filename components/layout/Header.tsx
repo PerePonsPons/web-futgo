@@ -1,11 +1,11 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 
 const navigationItems = [
 	{ label: "Inicio", href: "#home" },
 	{ label: "Sobre Futgo Talent", href: "#about" },
 	{ label: "Actividades", href: "#services" },
-	{ label: "Galeria", href: "#gallery" },
+	{ label: "Galería", href: "#gallery" },
 	{ label: "Contacto", href: "#contact" },
 ] as const;
 
@@ -27,7 +27,7 @@ export function Header() {
 					/>
 				</Link>
 
-				<nav aria-label="Navegacion principal" className="hidden md:block">
+				<nav aria-label="Navegación principal" className="hidden md:block">
 					<ul className="flex items-center gap-8">
 						{navigationItems.map((item) => (
 							<li key={item.href}>

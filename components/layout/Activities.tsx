@@ -20,7 +20,7 @@ export function Activities() {
 			</section>
 			<section className="p-8 mt-0 space-y-6 lg:px-40" id="experiencias">
 				<h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-					Clinics y experiencias destacadas
+					Clínics y experiencias destacadas
 				</h2>
 
 				<div className="grid gap-6 lg:grid-cols-2">

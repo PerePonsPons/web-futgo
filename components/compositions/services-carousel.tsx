@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
 	Carousel,
 	CarouselContent,
+	CarouselDots,
 	CarouselItem,
 	CarouselNext,
 	CarouselPrevious,
@@ -40,6 +41,7 @@ export function ServicesCarousel({
 									src={service.image}
 									alt={service.title}
 									fill
+									draggable={false}
 									className="object-cover rounded-t-2xl"
 									sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
 								/>
@@ -58,6 +60,7 @@ export function ServicesCarousel({
 			</CarouselContent>
 			<CarouselPrevious aria-label="Servicio anterior" className="hidden" />
 			<CarouselNext aria-label="Siguiente servicio" className="hidden" />
+			<CarouselDots />
 		</Carousel>
 	);
 }

@@ -26,8 +26,11 @@ type CarouselContextProps = {
   api: CarouselApi;
   scrollPrev: () => void;
   scrollNext: () => void;
+  scrollTo: (index: number) => void;
   canScrollPrev: boolean;
   canScrollNext: boolean;
+  selectedIndex: number;
+  scrollSnaps: number[];
 } & CarouselProps;
 
 const CarouselContext = React.createContext<CarouselContextProps | null>(null);
@@ -60,12 +63,16 @@ function Carousel({
   );
   const [canScrollPrev, setCanScrollPrev] = React.useState(false);
   const [canScrollNext, setCanScrollNext] = React.useState(false);
+  const [selectedIndex, setSelectedIndex] = React.useState(0);
+  const [scrollSnaps, setScrollSnaps] = React.useState<number[]>([]);
 
   const onSelect = React.useCallback((carouselApi: CarouselApi) => {
     if (!carouselApi) return;
 
     setCanScrollPrev(carouselApi.canScrollPrev());
     setCanScrollNext(carouselApi.canScrollNext());
+    setSelectedIndex(carouselApi.selectedScrollSnap());
+    setScrollSnaps(carouselApi.scrollSnapList());
   }, []);
 
   const scrollPrev = React.useCallback(() => {
@@ -75,6 +82,13 @@ function Carousel({
   const scrollNext = React.useCallback(() => {
     api?.scrollNext();
   }, [api]);
+
+  const scrollTo = React.useCallback(
+    (index: number) => {
+      api?.scrollTo(index);
+    },
+    [api],
+  );
 
   React.useEffect(() => {
     if (!api || !setApi) return;
@@ -91,6 +105,7 @@ function Carousel({
 
     return () => {
       api.off("select", onSelect);
+      api.off("reInit", onSelect);
     };
   }, [api, onSelect]);
 
@@ -103,8 +118,11 @@ function Carousel({
         orientation,
         scrollPrev,
         scrollNext,
+        scrollTo,
         canScrollPrev,
         canScrollNext,
+        selectedIndex,
+        scrollSnaps,
       }}
     >
       <div
@@ -127,11 +145,19 @@ function CarouselContent({
   const { carouselRef, orientation } = useCarousel();
 
   return (
-    <div ref={carouselRef} className="overflow-hidden">
+    <div
+      ref={carouselRef}
+      className={cn(
+        "overflow-hidden overscroll-x-contain",
+        orientation === "horizontal"
+          ? "[touch-action:pan-y_pinch-zoom]"
+          : "[touch-action:pan-x_pinch-zoom]",
+      )}
+    >
       <div
         data-slot="carousel-content"
         className={cn(
-          "flex",
+          "flex select-none",
           orientation === "horizontal"
             ? "-ml-4 [touch-action:pan-y_pinch-zoom]"
             : "-mt-4 flex-col [touch-action:pan-x_pinch-zoom]",
@@ -224,6 +250,42 @@ function CarouselNext({
   );
 }
 
+function CarouselDots({
+  className,
+  dotClassName,
+}: React.ComponentProps<"div"> & {
+  dotClassName?: string;
+}) {
+  const { scrollSnaps, selectedIndex, scrollTo } = useCarousel();
+
+  if (scrollSnaps.length <= 1) return null;
+
+  return (
+    <div
+      data-slot="carousel-dots"
+      className={cn(
+        "mt-4 flex items-center justify-center gap-2",
+        className,
+      )}
+    >
+      {scrollSnaps.map((_, index) => (
+        <button
+          key={index}
+          type="button"
+          aria-label={`Ir a la imagen ${index + 1}`}
+          aria-current={index === selectedIndex ? "true" : undefined}
+          className={cn(
+            "size-2.5 rounded-full bg-foreground/25 transition-all duration-200 hover:bg-foreground/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+            index === selectedIndex && "w-6 bg-foreground",
+            dotClassName,
+          )}
+          onClick={() => scrollTo(index)}
+        />
+      ))}
+    </div>
+  );
+}
+
 export {
   type CarouselApi,
   Carousel,
@@ -231,4 +293,5 @@ export {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  CarouselDots,
 };

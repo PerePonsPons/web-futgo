@@ -9,11 +9,11 @@ export function Gallery() {
 		<section id="gallery" className={containerClass}>
 			<div className="mb-8 max-w-3xl space-y-3">
 				<h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-					Futbol que se vive en el campo
+					Fútbol que se vive en el campo
 				</h2>
 				<p className="leading-7 text-muted-foreground">
 					Una muestra del ambiente Futgo Talent: entrenamientos, campus y
-					momentos de equipo con jugadores de futbol base.
+					momentos de equipo con jugadores de fútbol base.
 				</p>
 			</div>
 

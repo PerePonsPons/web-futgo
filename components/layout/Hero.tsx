@@ -9,7 +9,7 @@ export function Hero() {
 		<section className="h-[88svh] relative">
 			<Image
 				src={homeContent.hero.image}
-				alt="Campus Futgo Talent en el campo de futbol"
+				alt="Campus Futgo Talent en el campo de fútbol"
 				className="object-cover -z-20"
 				fill
 				loading="eager"
