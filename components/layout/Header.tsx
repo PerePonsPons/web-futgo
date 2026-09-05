@@ -2,11 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navigationItems = [
-	{ label: "Inicio", href: "#home" },
-	{ label: "Sobre Futgo Talent", href: "#about" },
-	{ label: "Actividades", href: "#services" },
-	{ label: "Galería", href: "#gallery" },
-	{ label: "Contacto", href: "#contact" },
+	{ label: "Inicio", href: "/#home" },
+	{ label: "Sobre Futgo Talent", href: "/#about" },
+	{ label: "Actividades", href: "/#services" },
+	{ label: "Contacto", href: "/#contact" },
 ] as const;
 
 export function Header() {
@@ -14,7 +13,7 @@ export function Header() {
 		<header className="sticky top-0 h-[12svh] z-50 border-b bg-white">
 			<div className="w-full h-full flex justify-around items-center">
 				<Link
-					href="#home"
+					href="/"
 					className="relative w-40 h-full"
 					aria-label="Ir al inicio de Futgo Talent"
 				>
@@ -43,7 +42,7 @@ export function Header() {
 				</nav>
 
 				<Link
-					href="#contact"
+					href="/#contact"
 					className="inline-flex h-9 items-center justify-center rounded-md brightness-125 bg-[#637aa4] px-4 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:hidden"
 				>
 					Contacto

@@ -204,7 +204,7 @@ export const structuredData = {
 					price: "55",
 					priceCurrency: "EUR",
 					availability: "https://schema.org/InStock",
-					url: `${siteConfig.url}/#experiencias`,
+					url: `${siteConfig.url}/actividades/clinics`,
 				},
 				{
 					"@type": "Offer",
@@ -212,7 +212,7 @@ export const structuredData = {
 					price: "30",
 					priceCurrency: "EUR",
 					availability: "https://schema.org/InStock",
-					url: `${siteConfig.url}/#experiencias`,
+					url: `${siteConfig.url}/actividades/clinics`,
 				},
 			],
 		},
