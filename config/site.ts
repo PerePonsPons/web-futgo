@@ -39,7 +39,7 @@ export const homeContent = {
 			"Futgo Talent es una organización deportiva nacida en Menorca con el objetivo de acompañar a futbolistas en su crecimiento personal y futbolístico. Priorizamos primero a las personas: el buen trato, la calidad del entrenamiento y la diversión son la base de cada experiencia.",
 		secondary:
 			"Trabajamos con una identidad clara: pequeños detalles, compromiso y respeto. Creamos entornos positivos donde cada jugador y jugadora puede evolucionar, aprender y vivir el fútbol con exigencia, cercanía y confianza.",
-		image: "/images/ALEVMASC.jpg.jpeg",
+		image: "/images/equipo-futgo-talent.jpg",
 	},
 	servicesIntro:
 		"Servicios pensados para el crecimiento de los y las futbolistas, cuidando la calidad del trabajo, el rendimiento y la diversión de cada experiencia.",

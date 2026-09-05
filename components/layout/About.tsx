@@ -20,10 +20,10 @@ export function About() {
 						</p>
 					</div>
 
-					<div className="relative aspect-[4/3] overflow-hidden rounded-lg border bg-muted shadow-sm">
+					<div className="relative aspect-[3/2] overflow-hidden rounded-lg border bg-muted shadow-sm">
 						<Image
 							src={homeContent.about.image}
-							alt="Equipo Futgo Talent preparado para entrenar"
+							alt="Equipo técnico y entrenadores de Futgo Talent"
 							fill
 							className="object-cover"
 							sizes="(min-width: 1024px) 42vw, 100vw"
