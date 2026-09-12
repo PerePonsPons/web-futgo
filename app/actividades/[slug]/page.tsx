@@ -110,18 +110,17 @@ export default async function ActivityPage({ params }: PageProps) {
 				</div>
 
 				{/* Hero Section */}
-				<section className="relative overflow-hidden bg-linear-to-b from-white to-slate-50/80 pb-6">
+				<section className="-mb-5 relative overflow-hidden bg-linear-to-b from-white to-slate-50/80 ">
 					<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 						<div className="max-w-3xl space-y-4">
 							<h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
 								{activity.title}
 							</h1>
-							<p className="text-lg font-medium text-slate-600 md:text-xl">
+							<p className="mb-5 text-lg font-medium text-slate-600 md:text-xl">
 								{activity.subtitle}
 							</p>
 
-							<FootballHero />
-
+							<FootballHero/>
 						</div>
 					</div>
 				</section>

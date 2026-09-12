@@ -31,7 +31,7 @@ export const homeContent = {
 			"Futgo Talent: fútbol, formación y experiencias para jugadores y jugadoras en Menorca",
 		description:
 			"Organización deportiva en Menorca para futbolistas que quieren crecer, mejorar y disfrutar. Cuidamos los pequeños detalles y a las personas para que cada experiencia combine calidad, rendimiento y diversión.",
-		image: "/images/CAMPUS.JPEG",
+		image: "/images/entrenamiento-futgo-petos-naranjas.jpg",
 	},
 	about: {
 		title: "Sobre Futgo Talent",
@@ -39,7 +39,7 @@ export const homeContent = {
 			"Futgo Talent es una organización deportiva nacida en Menorca con el objetivo de acompañar a futbolistas en su crecimiento personal y futbolístico. Priorizamos primero a las personas: el buen trato, la calidad del entrenamiento y la diversión son la base de cada experiencia.",
 		secondary:
 			"Trabajamos con una identidad clara: pequeños detalles, compromiso y respeto. Creamos entornos positivos donde cada jugador y jugadora puede evolucionar, aprender y vivir el fútbol con exigencia, cercanía y confianza.",
-		image: "/images/equipo-futgo-talent.jpg",
+		image: "/images/equipo-futgo-campo-ferreries-02.jpg",
 	},
 	servicesIntro:
 		"Servicios pensados para el crecimiento de los y las futbolistas, cuidando la calidad del trabajo, el rendimiento y la diversión de cada experiencia.",
@@ -56,28 +56,28 @@ export const services = [
 		title: "Tecnificación individual y grupal",
 		description:
 			"Trabajo individual específico o en grupo reducido para mejorar acciones técnico-tácticas, toma de decisiones y confianza, siempre con feedback especializado.",
-		image: "/images/IMG_6749.jpg.jpeg",
+		image: "/images/preparacion-fisica-contacto-02.jpg",
 	},
 	{
 		id: "preparacion-fisica",
 		title: "Preparación física específica",
 		description:
 			"Trabajo de fuerza para prevenir lesiones, mejorar velocidad y potencia, adaptado a cada edad y nivel tanto en gimnasio como en campo.",
-		image: "/images/preparacion-fisica-futgo-talent.png",
+		image: "/images/preparacion-fisica-abdominal-futgo.jpg",
 	},
 	{
 		id: "clinics",
 		title: "Clínics intensivos",
 		description:
 			"Tecnificaciones intensivas para perfeccionar el nivel individual con acciones técnico-tácticas, juegos de habilidad, ejercicios específicos por posición y feedback individualizado.",
-		image: "/images/IMG_2665.JPG.jpeg",
+		image: "/images/charla-entrenamiento-futgo-02.jpg",
 	},
 	{
 		id: "torneos",
 		title: "Torneos y experiencias",
 		description:
 			"Participación en torneos con una experiencia única que une cultura, convivencia y deporte, con formación, rendimiento y momentos dentro y fuera del campo.",
-		image: "/images/4b244db6-dbe2-41eb-9e1e-42c37d653838.JPEG",
+		image: "/images/viaje-equipo-autobus-futgo-02.jpg",
 	},
 ] as const;
 
@@ -111,27 +111,27 @@ export const featuredExperiences = [
 
 export const galleryImages = [
 	{
-		src: "/images/IMG_3839.JPG.jpeg",
+		src: "/images/partido-infantil-conduccion-azul.jpg",
 		alt: "Entrenamiento Futgo Talent en acción",
 		className: "md:col-span-2 md:row-span-2",
 	},
 	{
-		src: "/images/IMG_2872.JPG.jpeg",
+		src: "/images/equipo-futgo-partido-jovenes.jpg",
 		alt: "Jugadores durante una actividad Futgo Talent",
 		className: "",
 	},
 	{
-		src: "/images/IMG_2836.JPG.jpeg",
+		src: "/images/partido-infantil-carrera-balon.jpg",
 		alt: "Trabajo técnico en campo",
 		className: "",
 	},
 	{
-		src: "/images/IMG_5107.jpg.jpeg",
+		src: "/images/entrenamiento-con-petos-naranjas-01.jpg",
 		alt: "Grupo Futgo Talent en sesión de fútbol base",
 		className: "",
 	},
 	{
-		src: "/images/IMG_4960.jpg.jpeg",
+		src: "/images/entrenador-indicaciones-futgo-03.jpg",
 		alt: "Detalle de entrenamientos Futgo Talent",
 		className: "",
 	},

@@ -84,22 +84,22 @@ export const activitiesData: Record<string, ActivityData> = {
 		],
 		bentoImages: [
 			{
-				src: "/images/4b244db6-dbe2-41eb-9e1e-42c37d653838.JPEG",
+				src: "/images/viaje-equipo-autobus-futgo-02.jpg",
 				alt: "Partido de torneo Futgo Talent en acción",
 				className: "md:col-span-2 md:row-span-2",
 			},
 			{
-				src: "/images/CAD MASC.jpg.jpeg",
+				src: "/images/equipo-cadete-masculino-futgo.jpg",
 				alt: "Equipo cadete en torneo de fútbol",
 				className: "",
 			},
 			{
-				src: "/images/ALEVMASC.jpg.jpeg",
+				src: "/images/equipo-alevin-masculino-futgo.jpg",
 				alt: "Equipo alevín preparado para la competición",
 				className: "",
 			},
 			{
-				src: "/images/WhatsApp Image 2026-08-04 at 00.16.21.jpeg",
+				src: "/images/foto-grupal-porteros-futgo.jpg",
 				alt: "Celebración y entrega de trofeos",
 				className: "md:col-span-2",
 			},
@@ -117,7 +117,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Partidos exigentes ante canteras y academias de nivel nacional e internacional.",
 					"Una convivencia que refuerza disciplina, compañerismo y sentimiento de equipo.",
 				],
-				image: "/images/CAD MASC.jpg.jpeg",
+				image: "/images/equipo-cadete-masculino-futgo.jpg",
 				alt: "Futgo Talent en la Spain Cup",
 			},
 			{
@@ -132,7 +132,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Soporte nutricional, grabación de partidos y seguimiento audiovisual de la experiencia.",
 					"Equipos de distintas edades y apuesta firme por categorías femeninas.",
 				],
-				image: "/images/4b244db6-dbe2-41eb-9e1e-42c37d653838.JPEG",
+				image: "/images/viaje-equipo-autobus-futgo-02.jpg",
 				alt: "Futgo Talent compitiendo en Salou Esei Cup 2026",
 			},
 			{
@@ -147,7 +147,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Mayor visibilidad para el talento menorquín y para el fútbol femenino local.",
 					"Logística, arbitrajes y ambiente familiar cuidados desde la organización.",
 				],
-				image: "/images/CAMPUS.JPEG",
+				image: "/images/entrenamiento-futgo-petos-naranjas.jpg",
 				alt: "Torneo propio Waves Go Cup en Menorca",
 			},
 		],
@@ -192,22 +192,22 @@ export const activitiesData: Record<string, ActivityData> = {
 		],
 		bentoImages: [
 			{
-				src: "/images/IMG_2665.JPG.jpeg",
+				src: "/images/charla-entrenamiento-futgo-02.jpg",
 				alt: "Entrenamiento técnico en clínic",
 				className: "md:col-span-2 md:row-span-2",
 			},
 			{
-				src: "/images/IMG_2646.JPEG",
+				src: "/images/circuito-tecnico-futgo.jpg",
 				alt: "Jugadores concentrados en el campo",
 				className: "",
 			},
 			{
-				src: "/images/IMG_2822.JPG.jpeg",
+				src: "/images/arenga-equipo-juvenil-futgo.jpg",
 				alt: "Sesión de clínic en césped",
 				className: "",
 			},
 			{
-				src: "/images/CAMPUS.JPEG",
+				src: "/images/entrenamiento-futgo-petos-naranjas.jpg",
 				alt: "Grupo de participantes de clínic Futgo Talent",
 				className: "md:col-span-2",
 			},
@@ -225,7 +225,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Trabajo específico para guardametas con entrenador de porteros.",
 					"Ejercicios de velocidad gestual, control en espacios reducidos y finalización.",
 				],
-				image: "/images/IMG_2822.JPG.jpeg",
+				image: "/images/arenga-equipo-juvenil-futgo.jpg",
 				alt: "Clínic de Navidad en Ferreríes",
 			},
 			{
@@ -240,7 +240,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Categorías F7 y F11 con metodología ajustada a cada fase madurativa.",
 					"Camiseta técnica oficial, seguro deportivo y grupos de trabajo reducidos.",
 				],
-				image: "/images/IMG_2665.JPG.jpeg",
+				image: "/images/charla-entrenamiento-futgo-02.jpg",
 				alt: "Clínic de Verano en Es Castell",
 			},
 		],
@@ -285,22 +285,22 @@ export const activitiesData: Record<string, ActivityData> = {
 		],
 		bentoImages: [
 			{
-				src: "/images/IMG_6749.jpg.jpeg",
+				src: "/images/preparacion-fisica-contacto-02.jpg",
 				alt: "Entrenamiento de tecnificación con balón",
 				className: "md:col-span-2 md:row-span-2",
 			},
 			{
-				src: "/images/IMG_3839.JPG.jpeg",
+				src: "/images/partido-infantil-conduccion-azul.jpg",
 				alt: "Ejercicio de agilidad y pase",
 				className: "",
 			},
 			{
-				src: "/images/IMG_2836.JPG.jpeg",
+				src: "/images/partido-infantil-carrera-balon.jpg",
 				alt: "Trabajo de control de balón",
 				className: "",
 			},
 			{
-				src: "/images/IMG_5107.jpg.jpeg",
+				src: "/images/entrenamiento-con-petos-naranjas-01.jpg",
 				alt: "Grupo de tecnificación en sesión",
 				className: "md:col-span-2",
 			},
@@ -318,7 +318,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Entrenamientos centrados en golpeo, orientación, conducción y finalización.",
 					"Construcción de una comunidad femenina de referencia en la isla.",
 				],
-				image: "/images/IMG_3839.JPG.jpeg",
+				image: "/images/partido-infantil-conduccion-azul.jpg",
 				alt: "Tecnificación femenina en Menorca",
 			},
 			{
@@ -333,7 +333,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Trabajo de pierna no dominante, perfiles corporales y anticipación táctica.",
 					"Seguimiento de la evolución de cada futbolista a lo largo de los meses.",
 				],
-				image: "/images/IMG_6749.jpg.jpeg",
+				image: "/images/preparacion-fisica-contacto-02.jpg",
 				alt: "Tecnificación masculina en Menorca",
 			},
 			{
@@ -348,7 +348,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Sesiones intensivas para guardametas y jugadores de campo.",
 					"Gran acogida del método Futgo Talent fuera de Menorca.",
 				],
-				image: "/images/IMG_2836.JPG.jpeg",
+				image: "/images/partido-infantil-carrera-balon.jpg",
 				alt: "Tecnificación en Cataluña",
 			},
 		],
@@ -393,22 +393,22 @@ export const activitiesData: Record<string, ActivityData> = {
 		],
 		bentoImages: [
 			{
-				src: "/images/preparacion-fisica-futgo-talent.png",
+				src: "/images/preparacion-fisica-abdominal-futgo.jpg",
 				alt: "Preparación física específica Futgo Talent",
 				className: "md:col-span-2 md:row-span-2",
 			},
 			{
-				src: "/images/IMG_5907-Mejorado-NR.JPEG",
+				src: "/images/campeones-futgo-trofeo-02.jpg",
 				alt: "Trabajo atlético y físico en campo",
 				className: "",
 			},
 			{
-				src: "/images/IMG_4879.jpg.jpeg",
+				src: "/images/entrenador-futgo-campo.jpg",
 				alt: "Ejercicio de fuerza y estabilidad",
 				className: "",
 			},
 			{
-				src: "/images/IMG_5113.jpg.jpeg",
+				src: "/images/jugador-futgo-conduccion-balon.jpg",
 				alt: "Sesión de movilidad y prevención",
 				className: "md:col-span-2",
 			},
@@ -426,7 +426,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Fortalecimiento de core, tobillo, rodilla y musculatura estabilizadora.",
 					"Planificación de cargas ajustada a la categoría y estado del futbolista.",
 				],
-				image: "/images/IMG_5907-Mejorado-NR.JPEG",
+				image: "/images/campeones-futgo-trofeo-02.jpg",
 				alt: "Pre-pretemporada en Menorca",
 			},
 			{
@@ -441,7 +441,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Roturas musculares: fuerza excéntrica, control de cargas y tolerancia progresiva a sprints.",
 					"Lesiones de rodilla: transición desde gimnasio hasta giros, frenadas, saltos y contacto con balón.",
 				],
-				image: "/images/preparacion-fisica-futgo-talent.png",
+				image: "/images/preparacion-fisica-abdominal-futgo.jpg",
 				alt: "Readaptación de lesiones deportivas",
 			},
 		],
