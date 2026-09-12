@@ -16,8 +16,8 @@ export function Hero() {
 			/>
 			<div className="inset-0 h-full w-full -z-10 bg-black/55" />
 
-			<div className="top-0 h-full absolute pt-10 px-3 flex gap-4 justify-start max-w-4xl flex-col text-white">
-				<p className="text-sm font-semibold uppercase tracking-wide text-amber-300">
+			<div className="top-3 h-full absolute py-6 px-3 flex gap-4 justify-start max-w-4xl flex-col text-white">
+				<p className="text-xs font-semibold uppercase tracking-wide text-amber-300">
 					{homeContent.hero.eyebrow}
 				</p>
 

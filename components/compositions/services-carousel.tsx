@@ -46,13 +46,13 @@ export function ServicesCarousel({
 										alt={service.title}
 										fill
 										draggable={false}
-										className="object-cover rounded-t-2xl"
+										className="object-contain rounded-t-2xl"
 										sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
 									/>
 								</div>
 
 								<CardHeader>
-									<CardTitle className="text-xl">{service.title}</CardTitle>
+									<CardTitle className="text-xl mt-6">{service.title}</CardTitle>
 								</CardHeader>
 							</div>
 

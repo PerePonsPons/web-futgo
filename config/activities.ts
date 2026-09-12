@@ -12,7 +12,15 @@ export type ExperienceItem = {
 export type ActivityHighlight = {
 	title: string;
 	description: string;
-	iconName: "trophy" | "users" | "zap" | "heartHandshake" | "shield" | "target" | "activity" | "flame";
+	iconName:
+		| "trophy"
+		| "users"
+		| "zap"
+		| "heartHandshake"
+		| "shield"
+		| "target"
+		| "activity"
+		| "flame";
 };
 
 export type BentoImage = {
@@ -42,35 +50,35 @@ export const activitiesData: Record<string, ActivityData> = {
 		title: "Torneos y Experiencias Competitivas",
 		badge: "Competición, Convivencia y Rendimiento",
 		subtitle:
-			"Viajes deportivos de alto nivel que unen convivencia, cultura, rendimiento y valores dentro y fuera del terreno de juego.",
+			"Viajes deportivos diseñados para competir, convivir y crecer como equipo dentro y fuera del campo.",
 		intro:
-			"En Futgo Talent entendemos los torneos como una experiencia formativa 360°. No se trata solo de competir contra canteras y clubes de primer nivel, sino de convivir como un equipo profesional: desplazamientos organizados, soporte multidisciplinar (cuerpo técnico, fisioterapia, nutrición y medios audiovisuales) y la vivencia de momentos que marcan a los y las futbolistas para siempre.",
-		methodologyTitle: "¿Por qué competir con Futgo Talent?",
+			"En Futgo Talent los torneos son mucho más que partidos. Preparamos cada expedición como una experiencia deportiva completa: planificación previa, desplazamientos organizados, staff técnico, apoyo de fisioterapia, nutrición y cobertura audiovisual para que cada futbolista compita con exigencia y viva momentos que dejan marca.",
+		methodologyTitle: "Competir con una estructura profesional",
 		methodologyDescription:
-			"Apostamos por una preparación previa integral en Menorca antes de cada campeonato y por un acompañamiento cercano durante todo el viaje, cuidando a cada persona del grupo.",
+			"Antes de cada campeonato trabajamos la preparación deportiva en Menorca y durante el viaje acompañamos de cerca a cada jugador y jugadora, cuidando el rendimiento, la convivencia y la seguridad del grupo.",
 		highlights: [
 			{
-				title: "Pioneros en Fútbol Femenino",
+				title: "Impulso real al fútbol femenino",
 				description:
-					"Somos la primera organización deportiva en Menorca en poner el foco de manera prioritaria en el fútbol femenino, llevando equipos femeninos y mixtos a cada torneo.",
+					"Damos protagonismo a jugadoras y equipos femeninos en experiencias competitivas donde pueden medirse, crecer y ganar visibilidad.",
 				iconName: "heartHandshake",
 			},
 			{
-				title: "Todas las Categorías",
+				title: "Equipos para cada etapa",
 				description:
-					"Participamos con selecciones y equipos representativos de todas las edades (fútbol base, formativo y juvenil), brindando opciones a cada etapa de crecimiento.",
+					"Formamos grupos adaptados a fútbol base, etapa formativa y juvenil para que cada futbolista compita en un contexto adecuado a su edad y nivel.",
 				iconName: "users",
 			},
 			{
-				title: "Experiencia Profesional 360°",
+				title: "Experiencia 360°",
 				description:
-					"Alojamiento de calidad, desplazamientos coordinados, fisioterapia en el campo y hotel, soporte nutricional y cobertura fotográfica y de vídeo.",
+					"Alojamiento, traslados, fisioterapia, soporte nutricional y contenido audiovisual coordinados para que el equipo solo piense en competir.",
 				iconName: "trophy",
 			},
 			{
-				title: "Creación de Torneos Propios",
+				title: "Torneos propios en Menorca",
 				description:
-					"No solo participamos fuera; también creamos e impulsamos torneos propios en Menorca para ofrecer nuevos horizontes competitivos al fútbol local.",
+					"Además de viajar, impulsamos competiciones propias en la isla para abrir nuevas oportunidades al talento local.",
 				iconName: "target",
 			},
 		],
@@ -103,11 +111,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "2022 · 2023 · 2025",
 				badge: "Competición Nacional · Todas las Categorías",
 				description:
-					"Participación continuada en uno de los torneos formativos más prestigiosos de la península. Viajes con múltiples equipos que abarcan desde el fútbol base hasta juveniles, destacando la presencia de equipos femeninos que rompieron barreras competitivas.",
+					"Participación consolidada en uno de los torneos formativos de referencia en la península, con expediciones que han reunido fútbol base, categorías juveniles y equipos femeninos con un papel protagonista.",
 				highlights: [
-					"Presencia histórica de equipos de todas las categorías y del fútbol femenino menorquín.",
-					"Enfrentamientos de alto rendimiento contra canteras y academias de ámbito nacional e internacional.",
-					"Convivencia inolvidable que fortalece la cohesión, la disciplina y el compañerismo.",
+					"Representación menorquina en distintas categorías y presencia destacada del fútbol femenino.",
+					"Partidos exigentes ante canteras y academias de nivel nacional e internacional.",
+					"Una convivencia que refuerza disciplina, compañerismo y sentimiento de equipo.",
 				],
 				image: "/images/CAD MASC.jpg.jpeg",
 				alt: "Futgo Talent en la Spain Cup",
@@ -118,11 +126,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "2026",
 				badge: "Experiencia 360° · Máximo Nivel",
 				description:
-					"Una expedición de referencia que combinó competición de alto ritmo en instalaciones de césped natural y artificial con una convivencia de equipo en hotel de 4 estrellas con pensión completa.",
+					"Una expedición diseñada al detalle: competición de alto ritmo en instalaciones de primer nivel, convivencia de equipo y una organización pensada para que cada jugador viviera el torneo como una experiencia profesional.",
 				highlights: [
-					"Staff integral: entrenadores titulados, entrenador específico de porteros y fisioterapeutas dedicados.",
-					"Soporte nutricional, grabación de partidos y dinamización en redes sociales.",
-					"Competición con equipos de todas las edades y apuesta firme por categorías femeninas.",
+					"Staff completo con entrenadores titulados, trabajo específico de porteros y fisioterapia.",
+					"Soporte nutricional, grabación de partidos y seguimiento audiovisual de la experiencia.",
+					"Equipos de distintas edades y apuesta firme por categorías femeninas.",
 				],
 				image: "/images/4b244db6-dbe2-41eb-9e1e-42c37d653838.JPEG",
 				alt: "Futgo Talent compitiendo en Salou Esei Cup 2026",
@@ -133,11 +141,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "2025",
 				badge: "Torneo Propio · Dinamización en Menorca",
 				description:
-					"Creación y organización integral por parte de Futgo Talent del torneo Waves Go Cup en Menorca, concebido para brindar nuevas oportunidades competitivas a los clubes y deportistas de la isla.",
+					"Creación y organización integral de Waves Go Cup en Menorca, un torneo nacido para generar nuevas oportunidades competitivas para clubes, familias y futbolistas de la isla.",
 				highlights: [
-					"Iniciativa pionera para atraer competición de calidad sin necesidad de desplazarse de Menorca.",
-					"Visibilidad para el talento menorquín y fomento del fútbol femenino local.",
-					"Organización, logística, arbitrajes y ambiente festivo para familias y jugadores.",
+					"Competición de calidad en Menorca, sin necesidad de desplazamientos fuera de la isla.",
+					"Mayor visibilidad para el talento menorquín y para el fútbol femenino local.",
+					"Logística, arbitrajes y ambiente familiar cuidados desde la organización.",
 				],
 				image: "/images/CAMPUS.JPEG",
 				alt: "Torneo propio Waves Go Cup en Menorca",
@@ -148,37 +156,37 @@ export const activitiesData: Record<string, ActivityData> = {
 		id: "clinics",
 		slug: "clinics",
 		title: "Clínics Intensivos de Tecnificación",
-		badge: "Formación en Períodos Vacacionales",
+		badge: "Formación en Periodos Vacacionales",
 		subtitle:
-			"Jornadas intensivas de fútbol y aprendizaje durante vacaciones de verano e invierno para dar un salto de nivel.",
+			"Jornadas intensivas para mejorar técnica, toma de decisiones y confianza durante las vacaciones.",
 		intro:
-			"Los Clínics de Futgo Talent están diseñados para aprovechar las vacaciones escolares con jornadas dinámicas y estructuradas. Combinamos trabajo técnico-táctico específico por posiciones, entrenamientos especializados para porteros, juegos de habilidad y feedback individual para que cada jugador y jugadora progrese divirtiéndose.",
-		methodologyTitle: "¿Cómo estructuramos cada clínic?",
+			"Los clínics de Futgo Talent convierten las vacaciones en una oportunidad real de mejora. Cada jornada combina ejercicios técnico-tácticos por posiciones, sesiones específicas para porteros, juegos competitivos y correcciones individuales para que cada jugador y jugadora avance sin perder la diversión.",
+		methodologyTitle: "Entrenar mejor en pocos días",
 		methodologyDescription:
-			"Entrenamientos en grupos reducidos organizados por edad y nivel, garantizando que el contacto con el balón y la atención de los técnicos sea constante.",
+			"Organizamos los grupos por edad y nivel para asegurar muchas repeticiones con balón, atención cercana del staff y un ritmo de trabajo adaptado a cada etapa.",
 		highlights: [
 			{
-				title: "Ratios Reducidas",
+				title: "Grupos reducidos",
 				description:
-					"Garantizamos un número óptimo de futbolistas por entrenador para corregir gestos técnicos y dar feedback en directo.",
+					"Trabajamos con ratios ajustadas para corregir gestos técnicos, acompañar decisiones y dar feedback en el momento.",
 				iconName: "users",
 			},
 			{
-				title: "Específico para Porteros y Jugadores",
+				title: "Porteros y jugadores de campo",
 				description:
-					"Contamos con entrenadores de porteros dedicados para trabajar blocajes, juego aéreo y juego de pies al mismo tiempo que los jugadores de campo.",
+					"El entrenamiento de porteros tiene espacio propio mientras los jugadores de campo trabajan control, pase, conducción, finalización y juego real.",
 				iconName: "target",
 			},
 			{
-				title: "Ambiente Positivo y Formativo",
+				title: "Ambiente exigente y positivo",
 				description:
-					"La diversión y el respeto son innegociables: combinamos exigencia técnica con dinámicas de grupo y compañerismo.",
+					"La diversión, el respeto y el compañerismo sostienen sesiones intensas donde cada futbolista se atreve a probar, fallar y mejorar.",
 				iconName: "heartHandshake",
 			},
 			{
-				title: "Atención y Confort",
+				title: "Cuidado en cada detalle",
 				description:
-					"Incluye camiseta oficial Futgo Talent, hidratación constante, fruta, zonas de sombra y cobertura de seguro deportivo.",
+					"Incluimos camiseta oficial, hidratación, fruta, zonas de descanso y seguro deportivo para que la experiencia sea cómoda y segura.",
 				iconName: "shield",
 			},
 		],
@@ -211,11 +219,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "2025 · 2026",
 				badge: "Invierno · Mixto · C.E. Ferreríes",
 				description:
-					"Tecnificación intensiva durante el parón navideño en las instalaciones del C.E. Ferreríes. Una oportunidad única para mantener la forma física y afinar la técnica individual antes de reanudar las ligas regulares.",
+					"Tecnificación intensiva durante el parón navideño en las instalaciones del C.E. Ferreríes: una forma útil y motivadora de mantener ritmo competitivo, afinar la técnica y volver mejor preparados a la liga.",
 				highlights: [
-					"Participación mixta abierta a jugadoras y jugadores de toda la isla.",
-					"Trabajo específico para guardametas con entrenador de porteros titulado.",
-					"Ejercicios orientados a la velocidad gestual, control en espacios reducidos y finalización.",
+					"Participación mixta para jugadoras y jugadores de diferentes puntos de la isla.",
+					"Trabajo específico para guardametas con entrenador de porteros.",
+					"Ejercicios de velocidad gestual, control en espacios reducidos y finalización.",
 				],
 				image: "/images/IMG_2822.JPG.jpeg",
 				alt: "Clínic de Navidad en Ferreríes",
@@ -226,11 +234,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "Agosto 2026",
 				badge: "Verano · Mixto · Atlético Villacarlos",
 				description:
-					"Cuatro jornadas vespertinas de tecnificación intensiva en el campo del Atlético Villacarlos en Es Castell. Diseñado con horarios adaptados al verano para evitar las horas centrales de calor.",
+					"Cuatro jornadas de tarde en el campo del Atlético Villacarlos, diseñadas para entrenar con intensidad en un horario más amable y adaptado al verano.",
 				highlights: [
-					"Horario de tarde (17:30 a 20:30 h) con estaciones de hidratación, fruta y zonas de sombra.",
-					"Categorías de F7 (2019-2015) y F11 (2014-2010) con metodología adaptada a cada fase madurativa.",
-					"Camiseta técnica oficial Futgo Talent, seguro médico y grupos de trabajo muy reducidos.",
+					"Horario de tarde, hidratación, fruta y zonas de sombra para cuidar el rendimiento.",
+					"Categorías F7 y F11 con metodología ajustada a cada fase madurativa.",
+					"Camiseta técnica oficial, seguro deportivo y grupos de trabajo reducidos.",
 				],
 				image: "/images/IMG_2665.JPG.jpeg",
 				alt: "Clínic de Verano en Es Castell",
@@ -241,37 +249,37 @@ export const activitiesData: Record<string, ActivityData> = {
 		id: "tecnificacion",
 		slug: "tecnificacion",
 		title: "Tecnificación Individual y Grupal",
-		badge: "Perfeccionamiento Técnico y Toma de Decisiones",
+		badge: "Técnica, Decisión y Confianza",
 		subtitle:
-			"Sesiones continuas a lo largo de la temporada para dominar los fundamentos que marcan la diferencia en competición.",
+			"Sesiones de mejora durante la temporada para dominar los detalles que deciden partidos.",
 		intro:
-			"La tecnificación de Futgo Talent ofrece un espacio de entrenamiento minucioso y complementario al trabajo en sus clubes. Analizamos y pulimos cada detalle biomecánico: control orientado, pierna no hábil, perfiles corporales, velocidad de ejecución y visión táctica bajo presión, tanto para jugadores de campo como para porteros.",
-		methodologyTitle: "Nuestra metodología de tecnificación",
+			"La tecnificación de Futgo Talent complementa el trabajo del club con sesiones muy enfocadas en el detalle. Entrenamos control orientado, pierna no hábil, perfil corporal, velocidad de ejecución y lectura del juego bajo presión, tanto para jugadores de campo como para porteros.",
+		methodologyTitle: "Mejorar lo que después aparece en partido",
 		methodologyDescription:
-			"Basada en repeticiones de calidad con transferencia directa a la situación real de partido y retroalimentación pedagógica positiva.",
+			"Cada ejercicio busca transferencia directa al juego: pocas filas, muchas acciones útiles, correcciones claras y un entorno donde el futbolista entiende qué mejorar y por qué.",
 		highlights: [
 			{
-				title: "Foco Pionero en Fútbol Femenino",
+				title: "Fútbol femenino con espacio propio",
 				description:
-					"Creamos grupos y programas específicos para el desarrollo de jugadoras y porteras, potenciando su confianza, liderazgo y rendimiento.",
+					"Creamos grupos y programas pensados para jugadoras y porteras, reforzando confianza, liderazgo y rendimiento.",
 				iconName: "heartHandshake",
 			},
 			{
-				title: "Entrenamiento de Porteros",
+				title: "Porteros con metodología específica",
 				description:
-					"Metodología propia para guardametas: posición básica, desplazamientos, blocaje, desvío, juego aéreo y salida de balón con los pies.",
+					"Trabajamos posición básica, desplazamientos, blocaje, desvío, juego aéreo y salida de balón con los pies.",
 				iconName: "target",
 			},
 			{
-				title: "Pierna No Hábil y Perfiles",
+				title: "Perfiles y pierna no dominante",
 				description:
-					"Insistimos en el uso de ambos perfiles y en la orientación corporal previa a la recepción para ganar tiempo y espacio.",
+					"Insistimos en la orientación corporal antes de recibir y en el uso de ambos perfiles para ganar tiempo y espacio.",
 				iconName: "zap",
 			},
 			{
-				title: "Análisis y Feedback Inmediato",
+				title: "Corrección inmediata",
 				description:
-					"Cada ejercicio cuenta con corrección individualizada para que el futbolista interiorice el porqué de cada acción.",
+					"El feedback llega durante la acción para que el futbolista conecte rápido el gesto, la decisión y el resultado.",
 				iconName: "activity",
 			},
 		],
@@ -304,11 +312,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "2025 · 2026",
 				badge: "Pioneras en Menorca · Porteras y Jugadoras",
 				description:
-					"Programa continuado e histórico en Menorca dedicado exclusivamente a la formación de futbolistas y guardametas femeninas. Un entorno seguro, de alta exigencia técnica y compañerismo donde evolucionar sin barreras.",
+					"Programa continuado dedicado a la evolución de jugadoras y guardametas femeninas en Menorca. Un entorno cercano, exigente y seguro para mejorar sin barreras y con referentes alrededor.",
 				highlights: [
-					"Atención específica para porteras y jugadoras de campo de diversas edades.",
-					"Entrenamientos técnicos centrados en golpeo, orientación espacial y finalización.",
-					"Consolidación de una comunidad de futbolistas femeninas de referencia en la isla.",
+					"Atención específica para porteras y jugadoras de campo de distintas edades.",
+					"Entrenamientos centrados en golpeo, orientación, conducción y finalización.",
+					"Construcción de una comunidad femenina de referencia en la isla.",
 				],
 				image: "/images/IMG_3839.JPG.jpeg",
 				alt: "Tecnificación femenina en Menorca",
@@ -319,11 +327,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "2025 · 2026",
 				badge: "Continuo en Menorca · Porteros y Jugadores",
 				description:
-					"Módulos periódicos durante toda la temporada en diferentes campos de la isla para complementar los entrenamientos de club de los futbolistas locales.",
+					"Módulos periódicos durante la temporada en diferentes campos de la isla para complementar el entrenamiento de club con sesiones más específicas y personalizadas.",
 				highlights: [
-					"Grupos reducidos por nivel para asegurar un alto volumen de toques y repeticiones de calidad.",
-					"Especial atención al golpeo con pierna no dominante y a la anticipación táctica.",
-					"Seguimiento evolutivo de cada jugador a lo largo de los meses.",
+					"Grupos reducidos por nivel para asegurar volumen de balón y calidad en la repetición.",
+					"Trabajo de pierna no dominante, perfiles corporales y anticipación táctica.",
+					"Seguimiento de la evolución de cada futbolista a lo largo de los meses.",
 				],
 				image: "/images/IMG_6749.jpg.jpeg",
 				alt: "Tecnificación masculina en Menorca",
@@ -334,11 +342,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "Temporada 2025 - 2026",
 				badge: "Stage Península · Porteros y Jugadores",
 				description:
-					"Jornadas de tecnificación especial organizadas en Cataluña, compartiendo el método formativo y los valores de Futgo Talent con futbolistas de clubes catalanes.",
+					"Jornadas especiales en Cataluña para compartir la metodología Futgo Talent con futbolistas de clubes catalanes y crear un contexto de aprendizaje intenso fuera de Menorca.",
 				highlights: [
-					"Intercambio metodológico y enriquecimiento competitivo.",
-					"Sesiones intensivas de doble turno para guardametas y jugadores.",
-					"Excelente acogida que reafirma la efectividad del método Futgo Talent fuera de Menorca.",
+					"Intercambio metodológico y aprendizaje en un entorno competitivo diferente.",
+					"Sesiones intensivas para guardametas y jugadores de campo.",
+					"Gran acogida del método Futgo Talent fuera de Menorca.",
 				],
 				image: "/images/IMG_2836.JPG.jpeg",
 				alt: "Tecnificación en Cataluña",
@@ -349,37 +357,37 @@ export const activitiesData: Record<string, ActivityData> = {
 		id: "preparacion-fisica",
 		slug: "preparacion-fisica",
 		title: "Preparación Física y Readaptación",
-		badge: "Rendimiento, Fuerza y Prevención",
+		badge: "Rendimiento, Prevención y Vuelta al Juego",
 		subtitle:
-			"Desarrollo atlético específico para futbolistas y programas individualizados de vuelta a la competición tras lesión.",
+			"Trabajo físico específico para rendir más, prevenir lesiones y volver al campo con garantías.",
 		intro:
-			"El fútbol moderno exige velocidad, potencia, cambios de ritmo y, por encima de todo, disponibilidad física. Nuestro departamento de preparación física diseña programas adaptados tanto a futbolistas que buscan elevar su rendimiento atlético en campo y gimnasio como a aquellos que necesitan recuperarse de lesiones complejas con total garantía.",
-		methodologyTitle: "Enfoque científico y práctico",
+			"El fútbol actual exige velocidad, potencia, cambios de ritmo y disponibilidad física durante toda la temporada. Nuestro departamento de preparación física diseña planes para futbolistas que quieren elevar su rendimiento y para quienes necesitan volver a competir después de una lesión con un proceso progresivo y controlado.",
+		methodologyTitle: "Preparación física con transferencia al fútbol",
 		methodologyDescription:
-			"Cada sesión combina trabajo de fuerza preventiva, control neuromuscular y velocidad reactiva con transferencia directa al juego.",
+			"Combinamos fuerza preventiva, control neuromuscular, velocidad reactiva y trabajo con balón para que cada mejora física tenga sentido dentro del juego.",
 		highlights: [
 			{
-				title: "Fuerza Funcional y Potencia",
+				title: "Fuerza útil para competir",
 				description:
-					"Entrenamiento de fuerza específico adaptado a la edad del jugador para mejorar saltos, duelos y aceleraciones.",
+					"Entrenamiento adaptado a la edad y nivel del futbolista para mejorar duelos, saltos, aceleraciones y estabilidad.",
 				iconName: "flame",
 			},
 			{
-				title: "Prevención de Lesiones",
+				title: "Prevención de lesiones",
 				description:
-					"Trabajo neuromuscular y excéntrico para blindar isquiotibiales, aductores, tobillos y rodillas frente a recaídas.",
+					"Trabajo neuromuscular y excéntrico para proteger isquiotibiales, aductores, tobillos y rodillas frente a sobrecargas y recaídas.",
 				iconName: "shield",
 			},
 			{
-				title: "Readaptación 'Return to Play'",
+				title: "Readaptación progresiva",
 				description:
-					"Acompañamiento individualizado desde la fase final de rehabilitación clínica hasta el alta competitiva con balón.",
+					"Acompañamos desde la fase final de rehabilitación hasta el regreso competitivo con balón, contacto y confianza.",
 				iconName: "activity",
 			},
 			{
-				title: "Puesta a Punto de Pretemporada",
+				title: "Puesta a punto",
 				description:
-					"Planes para llegar al inicio de curso con los clubes en el mejor estado cardiovascular y muscular, reduciendo el riesgo de sobrecarga.",
+					"Planes para llegar al inicio de temporada con una base física sólida y menor riesgo de lesión temprana.",
 				iconName: "zap",
 			},
 		],
@@ -412,11 +420,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "2025 · 2026",
 				badge: "Puesta a Punto · Prevención de Lesiones",
 				description:
-					"Bloques intensivos de acondicionamiento físico durante los meses de verano previos al inicio de la pretemporada oficial de los clubes. El objetivo es que los jugadores lleguen con una base sólida de fuerza y resistencia, evitando las lesiones tempranas.",
+					"Bloques intensivos durante el verano para que los futbolistas lleguen a la pretemporada del club con una base física sólida, mejores sensaciones y menos riesgo de lesión temprana.",
 				highlights: [
-					"Trabajo de capacidad aeróbica y anaeróbica con balón.",
-					"Fortalecimiento de la musculatura estabilizadora del core, tobillo y rodilla.",
-					"Planificación de cargas individualizada según la categoría del futbolista.",
+					"Trabajo aeróbico y anaeróbico con transferencia al fútbol.",
+					"Fortalecimiento de core, tobillo, rodilla y musculatura estabilizadora.",
+					"Planificación de cargas ajustada a la categoría y estado del futbolista.",
 				],
 				image: "/images/IMG_5907-Mejorado-NR.JPEG",
 				alt: "Pre-pretemporada en Menorca",
@@ -427,11 +435,11 @@ export const activitiesData: Record<string, ActivityData> = {
 				period: "Programas Continuos",
 				badge: "Readaptación Físico-Deportiva · Casos Reales",
 				description:
-					"Protocolos personalizados de reintegración deportiva tras lesiones graves o de larga duración, trabajando la confianza física y psicológica del futbolista.",
+					"Protocolos personalizados para volver al entrenamiento y a la competición después de lesiones graves o de larga duración, cuidando tanto la respuesta física como la confianza del futbolista.",
 				highlights: [
-					"Esguinces de segundo grado: trabajo propioceptivo profundo, estabilidad articular y reactividad de tobillo.",
-					"Roturas musculares severas (isquiotibiales, recto anterior, gemelos): entrenamiento de fuerza excéntrica y tolerancia a sprints de alta intensidad.",
-					"Roturas de rodilla (ligamento cruzado anterior / meniscos): transición progresiva desde la fuerza en gimnasio hasta giros, frenadas, saltos y contacto con balón en césped.",
+					"Esguinces de segundo grado: propiocepción, estabilidad articular y reactividad de tobillo.",
+					"Roturas musculares: fuerza excéntrica, control de cargas y tolerancia progresiva a sprints.",
+					"Lesiones de rodilla: transición desde gimnasio hasta giros, frenadas, saltos y contacto con balón.",
 				],
 				image: "/images/preparacion-fisica-futgo-talent.png",
 				alt: "Readaptación de lesiones deportivas",

@@ -1,5 +1,5 @@
 export const siteConfig = {
-	name: "FUTGO TALENT",
+	name: "Futgo Talent",
 
 	description:
 		"Tecnificación, preparación física, clínics de fútbol y experiencias en torneos para jugadores y jugadoras en Menorca con Futgo Talent.",
@@ -28,7 +28,7 @@ export const homeContent = {
 	hero: {
 		eyebrow: "Fútbol base en Menorca",
 		title:
-			"FUTGO TALENT: fútbol, formación y experiencias para jugadores y jugadoras en Menorca",
+			"Futgo Talent: fútbol, formación y experiencias para jugadores y jugadoras en Menorca",
 		description:
 			"Organización deportiva en Menorca para futbolistas que quieren crecer, mejorar y disfrutar. Cuidamos los pequeños detalles y a las personas para que cada experiencia combine calidad, rendimiento y diversión.",
 		image: "/images/CAMPUS.JPEG",
@@ -46,7 +46,7 @@ export const homeContent = {
 	contactCta: {
 		title: "Fútbol para todos. Diversión y evolución.",
 		description:
-			"¿Quieres entrenar, competir o vivir una experiencia Futgo Talent? Contacta con nosotros y forma parte de FUTGO TALENT.",
+			"¿Quieres entrenar, competir o vivir una experiencia Futgo Talent? Contacta con nosotros para empezar a formar parte!",
 	},
 } as const;
 

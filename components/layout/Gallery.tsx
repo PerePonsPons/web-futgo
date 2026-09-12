@@ -3,7 +3,7 @@ import { galleryImages } from "@/config/site";
 
 export function Gallery() {
 	const containerClass =
-		"mx-auto w-full max-w-7xl py-8 px-8 sm:px-6 lg:px-8 bg-black/5";
+		"mx-auto w-full max-w-7xl py-6 px-8 sm:px-6 lg:px-8 bg-black/5";
 
 	return (
 		<section id="gallery" className={containerClass}>
