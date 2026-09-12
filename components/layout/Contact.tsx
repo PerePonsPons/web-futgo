@@ -13,10 +13,6 @@ function InstagramIcon(props: React.ComponentProps<"svg">) {
 	);
 }
 
-const socialIcons = {
-	Instagram: InstagramIcon,
-} as const;
-
 export function Contact() {
 	const containerClass = "mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8";
 	return (
@@ -56,7 +52,10 @@ export function Contact() {
 							</li>
 
 							<li className="relative">
-								<InstagramIcon color="#8e34bd" className="h-6 inline-block mr-2 absolute left-[-2.5]" />
+								<InstagramIcon
+									color="#8e34bd"
+									className="h-6 inline-block mr-2 absolute left-[-2.5]"
+								/>
 								<a
 									className="underline underline-offset-4 hover:text-muted-foreground relative left-6.5"
 									href={siteConfig.contact.instagram}
@@ -68,10 +67,10 @@ export function Contact() {
 							</li>
 
 							<li>
-                <MapPin className="inline-block mr-1.5" size={20} />
-                <p className="inline-block underline underline-offset-4 hover:text-muted-foreground">
-                  Menorca, Illes Balears
-                </p>
+								<MapPin className="inline-block mr-1.5" size={20} />
+								<p className="inline-block underline underline-offset-4 hover:text-muted-foreground">
+									Menorca, Illes Balears
+								</p>
 							</li>
 						</ul>
 					</address>

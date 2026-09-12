@@ -120,7 +120,7 @@ export default async function ActivityPage({ params }: PageProps) {
 								{activity.subtitle}
 							</p>
 
-							<FootballHero/>
+							<FootballHero />
 						</div>
 					</div>
 				</section>

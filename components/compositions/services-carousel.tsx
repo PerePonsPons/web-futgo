@@ -52,7 +52,9 @@ export function ServicesCarousel({
 								</div>
 
 								<CardHeader>
-									<CardTitle className="text-xl mt-6">{service.title}</CardTitle>
+									<CardTitle className="text-xl mt-6">
+										{service.title}
+									</CardTitle>
 								</CardHeader>
 							</div>
 
