@@ -117,7 +117,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Partidos exigentes ante canteras y academias de nivel nacional e internacional.",
 					"Una convivencia que refuerza disciplina, compañerismo y sentimiento de equipo.",
 				],
-				image: "/images/campeones-futgo-trofeo-01.jpg",
+				image: "/images/equipo-amarillo-torneo-futgo.jpg",
 				alt: "Futgo Talent en la Spain Cup",
 			},
 			{
@@ -132,7 +132,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Soporte nutricional, grabación de partidos y seguimiento audiovisual de la experiencia.",
 					"Equipos organizados por categorías y niveles competitivos según edad y condiciones.",
 				],
-				image: "/images/equipo-amarillo-torneo-futgo.jpg",
+				image: "/images/equipo-futgo-torneo-fsei.jpg",
 				alt: "Futgo Talent compitiendo en Salou Esei Cup 2026",
 			},
 			{
@@ -147,7 +147,7 @@ export const activitiesData: Record<string, ActivityData> = {
 					"Mayor visibilidad y oportunidades para todo el talento formativo menorquín.",
 					"Logística, arbitrajes y ambiente familiar cuidados desde la organización.",
 				],
-				image: "/images/equipo-futgo-torneo-fsei.jpg",
+				image: "/images/campeones-futgo-trofeo-01.jpg",
 				alt: "Torneo propio Waves Go Cup en Menorca",
 			},
 		],
