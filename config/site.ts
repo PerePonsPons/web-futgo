@@ -56,7 +56,7 @@ export const services = [
 		title: "Tecnificación individual y grupal",
 		description:
 			"Trabajo individual específico o en grupo reducido para mejorar acciones técnico-tácticas, toma de decisiones y confianza, siempre con feedback especializado.",
-		image: "/images/preparacion-fisica-contacto-02.jpg",
+		image: "/images/preparacion-fisica-contacto-02 (edited).jpg",
 	},
 	{
 		id: "preparacion-fisica",

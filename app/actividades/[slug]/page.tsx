@@ -198,7 +198,9 @@ export default async function ActivityPage({ params }: PageProps) {
 							<p className="mt-2 text-muted-foreground">
 								Un recorrido por campeonatos, clínics y programas que han
 								impulsado el crecimiento deportivo y humano de nuestros
-								futbolistas.
+								futbolistas. En todas nuestras actividades se configuran grupos
+								específicos por nivel, edad y condiciones formativas para
+								garantizar la máxima evolución y un aprendizaje óptimo.
 							</p>
 						</div>
 
